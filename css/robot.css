@@ -405,7 +405,7 @@ ul.social-buttons {
   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5))
 }
 
-.btn-department, .bt {
+.btn-department {
   width: 100%;
   height: 100%;
   background-color: transparent;
