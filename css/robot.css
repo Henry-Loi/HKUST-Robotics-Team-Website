@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+  *:focus {
+    box-shadow: none !important;
+}
+
 .low {
   text-transform: lowercase;
 }
@@ -33,7 +37,7 @@ section {
     margin-bottom: 50px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    
+  
 .card hr {
   border-top: 1px solid #c1c1c1;
   margin-top: 0cm;
@@ -62,9 +66,6 @@ img::selection {
 
 img::-moz-selection {
   background: transparent; }
-
-body {
-  -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
   background-color: #222222; }
@@ -375,7 +376,7 @@ ul.social-buttons {
   text-align: center; 
 }
 
-.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item.active {
   background-color: #222222;
   color: #fec503;
 }
