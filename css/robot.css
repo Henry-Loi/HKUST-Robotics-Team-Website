@@ -86,7 +86,8 @@ body {
     letter-spacing: 1px;
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover { color: rgb(255, 150, 150); }
 
 @media (min-width: 992px) {
@@ -360,6 +361,23 @@ ul.social-buttons {
 
 @media only screen and (max-width: 479px) {
    .mobile-hide{ display: none !important; }
+}
+
+.dropdown-menu {
+  background-color: #222222;
+  border: 1px solid #949494;
+  margin: 0 30% 0 30%;
+}
+
+.dropdown-item {
+  color: #ffffff;
+  background-color: #222222;
+  text-align: center; 
+}
+
+.dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+  background-color: #222222;
+  color: #fec503;
 }
 
 .department-image {
